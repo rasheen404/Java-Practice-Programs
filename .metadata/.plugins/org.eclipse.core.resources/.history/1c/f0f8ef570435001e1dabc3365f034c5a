@@ -1,0 +1,42 @@
+package TASK;
+
+class Employee {
+	String name;
+	int age;
+	String gender;
+	int salary;
+	String email;
+	
+	void eat() {
+		System.out.println(name + " can eat.");
+	}
+	
+	void work()
+	{
+		System.out.println(name + " can work");
+	}
+
+	void attendMeeting() {
+		System.out.println(name + " can attend meeting.");
+	}
+
+}
+
+public class EmployeeApp {
+	
+	public static void main(String[] args) {
+		Employee e1 = new Employee();               //Normal Object
+		
+		e1.name = "Rasheen";
+		e1.age = 23;
+		e1.gender = "Male";
+		e1.salary = 15000;
+		e1.email = "example@gmail.com";
+		e1.eat();
+		e1.work();
+		e1.attendMeeting();
+		
+		new Employee().work();              //Anonymous Object
+	}
+
+}

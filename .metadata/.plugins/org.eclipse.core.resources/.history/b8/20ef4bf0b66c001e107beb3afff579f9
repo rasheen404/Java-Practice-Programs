@@ -1,0 +1,8 @@
+package Com.learn.Variables;
+
+public class PrintDisplayVariable {
+	public static void main(String[] args) {
+		
+	}
+
+}

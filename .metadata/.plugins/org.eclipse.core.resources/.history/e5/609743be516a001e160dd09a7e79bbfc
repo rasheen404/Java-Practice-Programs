@@ -1,0 +1,23 @@
+package com.learn.HeightOfPlayers;
+
+import java.util.Scanner;
+
+public class HightOfPlayers {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the Number of Players : ");
+		
+		float [] arr = new float[scan.nextInt()]; 
+		
+		for(int i=0; i<=arr.length-1;i++)
+		{
+			arr[i] = scan.nextFloat();
+		}
+		
+		for(int i=0; i<=arr.length-1 ;i++)
+		{
+			System.out.println(arr[i]);
+		}
+	}
+
+}
