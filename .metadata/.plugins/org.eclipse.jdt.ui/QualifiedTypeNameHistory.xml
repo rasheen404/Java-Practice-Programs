@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.print.attribute.standard.Sides"/>
-    <fullyQualifiedTypeName name="TASK.Student"/>
     <fullyQualifiedTypeName name="TASK.Employee"/>
     <fullyQualifiedTypeName name="TASK.PlanetExplorer"/>
     <fullyQualifiedTypeName name="TASK.TimeConverter"/>
@@ -55,9 +53,11 @@
     <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
     <fullyQualifiedTypeName name="java.lang.annotation.IncompleteAnnotationException"/>
     <fullyQualifiedTypeName name="java.util.function.BiConsumer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollPaneUI"/>
     <fullyQualifiedTypeName name="int"/>
+    <fullyQualifiedTypeName name="com.learn.equalsIgnoreCase.EqualsIgnoreCase"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.learn.CompareTo.CompareTo"/>
 </qualifiedTypeNameHistroy>
