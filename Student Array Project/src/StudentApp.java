@@ -1,22 +1,32 @@
+import java.util.Scanner;
 
 public class StudentApp {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter the number of Student : ");
+		int Studentcount = scanner.nextInt();
 
-		Student s1 = new Student(11, "Ajay", 22);
-		Student s2 = new Student(12, "Amit", 25);
-		Student s3 = new Student(13, "Arjun", 23);
+		Student[] arr = new Student[Studentcount];
 
-		Student[] arr = new Student[3];
+		for (int i = 0; i <= arr.length - 1; i++) {
+			System.out.println("Enter the rollNo of Student " + (i + 1) + ": ");
+			int RollNo = scanner.nextInt();
 
-		arr[0] = s1;
-		arr[1] = s2;
-		arr[2] = s3;
+			System.out.println("Enter the Name " + (i + 1) + ":");
+			String Name = scanner.next();
 
-		for (int i = 0; i <=arr.length-1; i++)
+			System.out.println("Enter the Age " + (i + 1) + ": ");
+			int Age = scanner.nextInt();
+
+			arr[i] = new Student(RollNo, Name, Age);
+
+		}
+		System.out.println("Student details are : ");
+		for (int i = 0; i <= arr.length - 1; i++)
 
 		{
-			System.out.println(arr[i].RollNo+" "+arr[i].Name+" "+arr[i].Age);
+			System.out.println(arr[i].RollNo + " " + arr[i].Name + " " + arr[i].Age);
 		}
 	}
 
