@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="TASK.ScannerChar"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicMarkableReference"/>
-    <fullyQualifiedTypeName name="java.nio.file.FileSystemAlreadyExistsException"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
-    <fullyQualifiedTypeName name="Fibonacci"/>
-    <fullyQualifiedTypeName name="Bonus"/>
-    <fullyQualifiedTypeName name="com.learn.characteridentifies.IdentifyCharacter"/>
     <fullyQualifiedTypeName name="com.learn.SumofEvenNumbers.SumofEvenNumbers"/>
     <fullyQualifiedTypeName name="com.learn.SumofNatural.SumofNatual"/>
     <fullyQualifiedTypeName name="com.learn.factorial.Factorial"/>
@@ -55,9 +47,17 @@
     <fullyQualifiedTypeName name="char"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.multi.MultiInternalFrameUI"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.learn.Banksimple.Bank"/>
     <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.learn.StudentApp.Student"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.learn.Employee.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.learn.RobotApp.Robot"/>
+    <fullyQualifiedTypeName name="com.learn.RobotApp.ChefRobot"/>
+    <fullyQualifiedTypeName name="com.learn.RobotApp.DoctorRobot"/>
+    <fullyQualifiedTypeName name="com.learn.RobotApp.TeacherRobot"/>
+    <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Horse"/>
+    <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Animal"/>
+    <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Herbivorous"/>
 </qualifiedTypeNameHistroy>
