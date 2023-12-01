@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.learn.SumofEvenNumbers.SumofEvenNumbers"/>
-    <fullyQualifiedTypeName name="com.learn.SumofNatural.SumofNatual"/>
-    <fullyQualifiedTypeName name="com.learn.factorial.Factorial"/>
-    <fullyQualifiedTypeName name="FibonacciSeries.FibonacciSeries"/>
-    <fullyQualifiedTypeName name="com.learn.GCDnumber.GcdApp"/>
-    <fullyQualifiedTypeName name="com.learn.GCDnumber.Gcd"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinTask"/>
-    <fullyQualifiedTypeName name="com.learn.PrimeNum.PrimeNum"/>
     <fullyQualifiedTypeName name="SumofDigits.SumofDigitApp"/>
     <fullyQualifiedTypeName name="SumofDigits.SumofDigits"/>
     <fullyQualifiedTypeName name="javax.xml.transform.Templates"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Horse"/>
     <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Animal"/>
     <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Herbivorous"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.beans.beancontext.BeanContext"/>
+    <fullyQualifiedTypeName name="com.learn.ShapesApp.Shapes"/>
+    <fullyQualifiedTypeName name="java.lang.Readable"/>
+    <fullyQualifiedTypeName name="com.learn.ShapesApp.Square"/>
+    <fullyQualifiedTypeName name="com.learn.ShapesApp.Circle"/>
+    <fullyQualifiedTypeName name="com.learn.ShapesApp.Rectangle"/>
 </qualifiedTypeNameHistroy>
