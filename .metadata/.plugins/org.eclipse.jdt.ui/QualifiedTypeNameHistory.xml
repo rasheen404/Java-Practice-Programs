@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="SumofDigits.SumofDigitApp"/>
-    <fullyQualifiedTypeName name="SumofDigits.SumofDigits"/>
-    <fullyQualifiedTypeName name="javax.xml.transform.Templates"/>
-    <fullyQualifiedTypeName name="com.learn.Palindrome.Palindrome"/>
-    <fullyQualifiedTypeName name="javax.naming.directory.NoSuchAttributeException"/>
-    <fullyQualifiedTypeName name="X"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="com.learn.ArithmeticOperations.AdditionNumbers"/>
@@ -42,7 +36,6 @@
     <fullyQualifiedTypeName name="com.learn.Banksimple.Bank"/>
     <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
     <fullyQualifiedTypeName name="com.learn.StudentApp.Student"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.learn.Employee.Employee"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.learn.RobotApp.Robot"/>
@@ -52,7 +45,6 @@
     <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Horse"/>
     <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Animal"/>
     <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Herbivorous"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.beans.beancontext.BeanContext"/>
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Shapes"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Square"/>
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Circle"/>
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.learn.ProfessorApp.ProfessorApp"/>
+    <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
+    <fullyQualifiedTypeName name="java.util.spi.AbstractResourceBundleProvider"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.learn.DeveloperApp.Developer"/>
+    <fullyQualifiedTypeName name="com.learn.DeveloperApp.PythonDeveloper"/>
+    <fullyQualifiedTypeName name="com.learn.DeveloperApp.JavaDeveloper"/>
 </qualifiedTypeNameHistroy>
