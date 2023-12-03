@@ -1,15 +1,13 @@
 package com.learn.DeveloperApp;
 
-public class JavaDeveloper extends Developer{
-	
+public class JavaDeveloper extends Developer {
+
 	@Override
-	void doProject()
-	{
+	void doProject() {
 		System.out.println("Java Developer is doing Java project.");
 	}
-	
-	void learnJava()
-	{
+
+	void learnJava() {
 		System.out.println("Python Developer is learning Java.");
 	}
 
