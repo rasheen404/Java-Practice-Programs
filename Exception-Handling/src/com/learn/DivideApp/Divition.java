@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Divition {
 	public static void main(String[] args) {
+		//statement might generate Exception
 		try {
 			System.out.println("Program started Execution.");
 			Scanner scanner = new Scanner(System.in);
@@ -16,6 +17,8 @@ public class Divition {
 
 			int c = a / b;
 			System.out.println("The result is : " + c);
+			
+			
 
 		} catch (Exception e) {
 			System.out.println("Exception is Handled.");
