@@ -12,9 +12,6 @@ public class DrivingLicenceApp {
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-		finally {
-			System.out.println("Eligibility Checked");
-		}
 		
 		
 	}
