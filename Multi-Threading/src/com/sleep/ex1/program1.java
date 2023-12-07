@@ -39,6 +39,6 @@ public class program1 {
 			
 		}
 	}
-		System.out.println("Number Ended Printing");
+		System.out.println("Character Ended Printing");
 	}
 }
