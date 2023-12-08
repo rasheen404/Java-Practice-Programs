@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.learn.ArithmeticOperations.DivideNumbers"/>
-    <fullyQualifiedTypeName name="com.learn.ArithmeticOperations.FindRemainder"/>
-    <fullyQualifiedTypeName name="com.learn.TheDoubleTrouble.TheDoubleTrouble"/>
-    <fullyQualifiedTypeName name="com.learn.TheStringJoiner.Joiner"/>
     <fullyQualifiedTypeName name="com.learn.TheJourneyCalculator.Calculator"/>
     <fullyQualifiedTypeName name="TheTemperatureConverter.TemperatureConverter"/>
     <fullyQualifiedTypeName name="com.learn.SemesterMarksAverager.Average"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="com.CustomException.DrivingLicenceApp.UnderAgeException"/>
     <fullyQualifiedTypeName name="com.CustomException.DrivingLicenceApp.OverAgeException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.MultiThreading.example1.PrintNum"/>
+    <fullyQualifiedTypeName name="com.MultiThreading.example1.PrintChar"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
