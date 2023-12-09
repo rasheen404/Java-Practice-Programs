@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.learn.TheJourneyCalculator.Calculator"/>
     <fullyQualifiedTypeName name="TheTemperatureConverter.TemperatureConverter"/>
     <fullyQualifiedTypeName name="com.learn.SemesterMarksAverager.Average"/>
     <fullyQualifiedTypeName name="javax.print.attribute.Size2DSyntax"/>
@@ -59,5 +58,6 @@
     <fullyQualifiedTypeName name="com.MultiThreading.example1.PrintNum"/>
     <fullyQualifiedTypeName name="com.MultiThreading.example1.PrintChar"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.MultiThreading.SingleRunMethod.Program"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
