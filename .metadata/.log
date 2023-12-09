@@ -2608,3 +2608,141 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2023-12-09 11:46:19.527
 !MESSAGE Setup tasks were performed during startup. See 'C:\Users\rasheen\eclipse\jee-2023-06\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.pde.core 4 0 2023-12-09 19:27:51.831
+!MESSAGE ConfigurationParser.parse() error:
+!STACK 0
+org.xml.sax.SAXException: NLS missing message: InstalledSiteParser_UnableToCreateURL in: org.eclipse.update.internal.configurator.messages
+java.net.MalformedURLException: no protocol: ../../../.p2/pool/
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.startElement(ConfigurationParser.java:123)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.parse(ConfigurationParser.java:78)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.loadConfig(PlatformConfiguration.java:105)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.initialize(PlatformConfiguration.java:85)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.<init>(PlatformConfiguration.java:61)
+	at org.eclipse.pde.internal.core.PluginPathFinder.getFeaturePaths(PluginPathFinder.java:115)
+	at org.eclipse.pde.internal.core.ExternalFeatureModelManager.createFeatures(ExternalFeatureModelManager.java:199)
+	at org.eclipse.pde.internal.core.target.TargetDefinition.resolveFeatures(TargetDefinition.java:965)
+	at org.eclipse.pde.internal.core.target.ProfileBundleContainer.resolveFeatures(ProfileBundleContainer.java:248)
+	at org.eclipse.pde.internal.core.target.AbstractBundleContainer.resolve(AbstractBundleContainer.java:98)
+	at org.eclipse.pde.internal.core.target.TargetDefinition.resolve(TargetDefinition.java:385)
+	at org.eclipse.pde.internal.core.TargetPlatformHelper.getWorkspaceTargetResolved(TargetPlatformHelper.java:567)
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:683)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:606)
+	at org.eclipse.pde.internal.core.PluginModelManager.getEntryTable(PluginModelManager.java:554)
+	at org.eclipse.pde.internal.core.PluginModelManager.getActiveModels(PluginModelManager.java:1125)
+	at org.eclipse.pde.internal.ui.search.dialogs.FilteredPluginArtifactsSelectionDialog.fillContentProvider(FilteredPluginArtifactsSelectionDialog.java:408)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.filterContent(FilteredItemsSelectionDialog.java:1961)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.internalRun(FilteredItemsSelectionDialog.java:1916)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.doRun(FilteredItemsSelectionDialog.java:1893)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.run(FilteredItemsSelectionDialog.java:1881)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: ../../../.p2/pool/
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.processSite(ConfigurationParser.java:150)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.startElement(ConfigurationParser.java:113)
+	... 33 more
+
+!ENTRY org.eclipse.pde.core 4 0 2023-12-09 19:27:51.838
+!MESSAGE ConfigurationParser.parse() error:
+!STACK 0
+org.xml.sax.SAXException: NLS missing message: InstalledSiteParser_UnableToCreateURL in: org.eclipse.update.internal.configurator.messages
+java.net.MalformedURLException: no protocol: ../../../.p2/pool/
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.startElement(ConfigurationParser.java:123)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.parse(ConfigurationParser.java:78)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.loadConfig(PlatformConfiguration.java:130)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.initialize(PlatformConfiguration.java:85)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.<init>(PlatformConfiguration.java:61)
+	at org.eclipse.pde.internal.core.PluginPathFinder.getFeaturePaths(PluginPathFinder.java:115)
+	at org.eclipse.pde.internal.core.ExternalFeatureModelManager.createFeatures(ExternalFeatureModelManager.java:199)
+	at org.eclipse.pde.internal.core.target.TargetDefinition.resolveFeatures(TargetDefinition.java:965)
+	at org.eclipse.pde.internal.core.target.ProfileBundleContainer.resolveFeatures(ProfileBundleContainer.java:248)
+	at org.eclipse.pde.internal.core.target.AbstractBundleContainer.resolve(AbstractBundleContainer.java:98)
+	at org.eclipse.pde.internal.core.target.TargetDefinition.resolve(TargetDefinition.java:385)
+	at org.eclipse.pde.internal.core.TargetPlatformHelper.getWorkspaceTargetResolved(TargetPlatformHelper.java:567)
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:683)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:606)
+	at org.eclipse.pde.internal.core.PluginModelManager.getEntryTable(PluginModelManager.java:554)
+	at org.eclipse.pde.internal.core.PluginModelManager.getActiveModels(PluginModelManager.java:1125)
+	at org.eclipse.pde.internal.ui.search.dialogs.FilteredPluginArtifactsSelectionDialog.fillContentProvider(FilteredPluginArtifactsSelectionDialog.java:408)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.filterContent(FilteredItemsSelectionDialog.java:1961)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.internalRun(FilteredItemsSelectionDialog.java:1916)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.doRun(FilteredItemsSelectionDialog.java:1893)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.run(FilteredItemsSelectionDialog.java:1881)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: ../../../.p2/pool/
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.processSite(ConfigurationParser.java:150)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.startElement(ConfigurationParser.java:113)
+	... 33 more
+
+!ENTRY org.eclipse.pde.core 4 0 2023-12-09 19:27:51.839
+!MESSAGE NLS missing message: InstalledSiteParser_UnableToCreateURL in: org.eclipse.update.internal.configurator.messages
+!STACK 0
+org.xml.sax.SAXException: NLS missing message: InstalledSiteParser_UnableToCreateURL in: org.eclipse.update.internal.configurator.messages
+java.net.MalformedURLException: no protocol: ../../../.p2/pool/
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.startElement(ConfigurationParser.java:123)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2726)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.parse(ConfigurationParser.java:78)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.loadConfig(PlatformConfiguration.java:130)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.initialize(PlatformConfiguration.java:85)
+	at org.eclipse.pde.internal.core.update.configurator.PlatformConfiguration.<init>(PlatformConfiguration.java:61)
+	at org.eclipse.pde.internal.core.PluginPathFinder.getFeaturePaths(PluginPathFinder.java:115)
+	at org.eclipse.pde.internal.core.ExternalFeatureModelManager.createFeatures(ExternalFeatureModelManager.java:199)
+	at org.eclipse.pde.internal.core.target.TargetDefinition.resolveFeatures(TargetDefinition.java:965)
+	at org.eclipse.pde.internal.core.target.ProfileBundleContainer.resolveFeatures(ProfileBundleContainer.java:248)
+	at org.eclipse.pde.internal.core.target.AbstractBundleContainer.resolve(AbstractBundleContainer.java:98)
+	at org.eclipse.pde.internal.core.target.TargetDefinition.resolve(TargetDefinition.java:385)
+	at org.eclipse.pde.internal.core.TargetPlatformHelper.getWorkspaceTargetResolved(TargetPlatformHelper.java:567)
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:683)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:606)
+	at org.eclipse.pde.internal.core.PluginModelManager.getEntryTable(PluginModelManager.java:554)
+	at org.eclipse.pde.internal.core.PluginModelManager.getActiveModels(PluginModelManager.java:1125)
+	at org.eclipse.pde.internal.ui.search.dialogs.FilteredPluginArtifactsSelectionDialog.fillContentProvider(FilteredPluginArtifactsSelectionDialog.java:408)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.filterContent(FilteredItemsSelectionDialog.java:1961)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.internalRun(FilteredItemsSelectionDialog.java:1916)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.doRun(FilteredItemsSelectionDialog.java:1893)
+	at org.eclipse.ui.dialogs.FilteredItemsSelectionDialog$FilterJob.run(FilteredItemsSelectionDialog.java:1881)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.MalformedURLException: no protocol: ../../../.p2/pool/
+	at java.base/java.net.URL.<init>(URL.java:674)
+	at java.base/java.net.URL.<init>(URL.java:569)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.processSite(ConfigurationParser.java:150)
+	at org.eclipse.pde.internal.core.update.configurator.ConfigurationParser.startElement(ConfigurationParser.java:113)
+	... 33 more
