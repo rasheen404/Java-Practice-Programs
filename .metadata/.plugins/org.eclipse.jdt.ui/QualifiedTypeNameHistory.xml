@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="TheTemperatureConverter.TemperatureConverter"/>
-    <fullyQualifiedTypeName name="com.learn.SemesterMarksAverager.Average"/>
-    <fullyQualifiedTypeName name="javax.print.attribute.Size2DSyntax"/>
-    <fullyQualifiedTypeName name="float"/>
     <fullyQualifiedTypeName name="boolean"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Class"/>
@@ -40,7 +36,6 @@
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Square"/>
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Circle"/>
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Rectangle"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.learn.ProfessorApp.ProfessorApp"/>
     <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
     <fullyQualifiedTypeName name="java.util.spi.AbstractResourceBundleProvider"/>
@@ -57,7 +52,12 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.MultiThreading.example1.PrintNum"/>
     <fullyQualifiedTypeName name="com.MultiThreading.example1.PrintChar"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="com.MultiThreading.SingleRunMethod.Program"/>
+    <fullyQualifiedTypeName name="com.MuliThreading.Synchronized.KodNestLibraryApp"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.Synchronized.example2.Hospital"/>
+    <fullyQualifiedTypeName name="com.Synchronized.example2.Tom"/>
+    <fullyQualifiedTypeName name="com.Synchronized.example2.Jerry"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
