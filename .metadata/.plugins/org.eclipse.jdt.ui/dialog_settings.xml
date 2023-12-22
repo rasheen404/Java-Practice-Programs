@@ -4,6 +4,7 @@
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-17"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\KodNest files\mysql-connector-j-8.2.0"/>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="completion_proposal_size">
@@ -29,7 +30,7 @@
 		<item key="create_unimplemented" value="true"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="3"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="JavaSearchPage">
 		<item key="CASE_SENSITIVE" value="false"/>
