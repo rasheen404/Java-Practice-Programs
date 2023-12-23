@@ -1,18 +1,18 @@
-package com.learn.program2;
+package com.Update.Program1;
 
 //import java.sql package.
 import java.sql.*;
 
-public class Program2 {
+public class Program4 {
 
 	public static void main(String[] args) {
-		//Url,username,password for connecting with DataBase.
+		// Url,username,password for connecting with DataBase.
 		String url = "jdbc:mysql://localhost:3306/myjdbcdb";
 		String username = "root";
 		String password = "admin";
 
 		// Query to be Executed
-		String query = "CREATE TABLE STUDENT(ROLL INT , NAME VARCHAR(10))";
+		String query = "UPDATE STUDENT SET NAME = 'ANUJ' WHERE ROLL=2";
 		try {
 
 			// Loading the Driver
@@ -28,7 +28,7 @@ public class Program2 {
 			Statement statement = connection.createStatement();
 
 			// Executing the Query
-			statement.execute(query);
+			statement.executeUpdate(query);
 			System.out.println("query executed successfully. ");
 		} catch (Exception e) {
 			e.printStackTrace();
