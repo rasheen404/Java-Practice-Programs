@@ -1,9 +1,10 @@
-package com.SELECT.program;
+package com.Insert.UserInput;
 
 //import java.sql package.
 import java.sql.*;
+import java.util.Scanner;
 
-public class Program6 {
+public class Program7 {
 
 	public static void main(String[] args) {
 		// Url,username,password for connecting with DataBase.
@@ -12,7 +13,7 @@ public class Program6 {
 		String password = "admin";
 
 		// Query to be Executed
-		String query = "SELECT * FROM STUDENT";
+		String query = "INSERT INTO EMPLOYEE VALUES(?,?,?)";
 		try {
 
 			// Loading the Driver
@@ -25,16 +26,21 @@ public class Program6 {
 			System.out.println("Connection is Established.");
 
 			// Creating the Statement.
-			Statement statement = connection.createStatement();
+			PreparedStatement preparedStatement = connection.prepareStatement(query);
+			Scanner scanner = new Scanner(System.in);
+			System.out.print("Enter the Employee ID : ");
+			int emp_id = scanner.nextInt();
+			System.out.print("Enter the Employee Name : ");
+			String emp_name = scanner.next();
+			System.out.print("Enter the Employee Salary : ");
+			int emp_salary = scanner.nextInt();
+
+			preparedStatement.setInt(1, emp_id);
+			preparedStatement.setString(2, emp_name);
+			preparedStatement.setInt(3, emp_salary);
 
 			// Executing the Query
-			ResultSet resultSet = statement.executeQuery(query);
-
-			//Fetching the data using result set
-			while (resultSet.next()) {
-				System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2));
-			}
-
+			preparedStatement.execute();
 			System.out.println("query executed successfully. ");
 		} catch (Exception e) {
 			e.printStackTrace();
