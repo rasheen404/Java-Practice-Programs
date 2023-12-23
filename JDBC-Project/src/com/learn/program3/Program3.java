@@ -1,18 +1,18 @@
-package com.learn.program2;
+package com.learn.program3;
 
 //import java.sql package.
 import java.sql.*;
 
-public class Program2 {
+public class Program3 {
 
 	public static void main(String[] args) {
-		//Url,username,password for connecting with DataBase.
+		// Url,username,password for connecting with DataBase.
 		String url = "jdbc:mysql://localhost:3306/myjdbcdb";
 		String username = "root";
 		String password = "admin";
 
 		// Query to be Executed
-		String query = "CREATE TABLE STUDENT(ROLL INT , NAME VARCHAR(10))";
+		String query = "INSERT INTO STUDENT VALUES(3,'MOHAN'),(4,'MOHIT')";
 		try {
 
 			// Loading the Driver
