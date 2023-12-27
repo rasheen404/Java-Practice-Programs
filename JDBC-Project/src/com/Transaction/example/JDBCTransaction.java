@@ -10,13 +10,17 @@ public class JDBCTransaction {
 		String url = "jdbc:mysql://localhost:3306/myjdbcdb";
 		String username = "root";
 		String password = "admin";
+		Connection connection = null;
 		String query1 = "UPDATE BANK SET BALANCE = BALANCE-? WHERE Account_no = 1111 "; // ? mark is Place Holder
 		String query2 = "UPDATE BANK SET BALANCE = BALANCE+? WHERE Account_no = 3333 ";// ? mark is Place Holder
 
 		try {
 			// Connection is Establishing to DataBase.
-			Connection connection = DriverManager.getConnection(url, username, password);
+			connection = DriverManager.getConnection(url, username, password);
 			System.out.println("Connection is Established.");
+
+			// 1.Setting AutoCommit status as false.
+			connection.setAutoCommit(false);
 
 			// preparing the Statement for the Query
 			PreparedStatement preparedStatement1 = connection.prepareStatement(query1);
@@ -38,7 +42,19 @@ public class JDBCTransaction {
 			// Executing the Query of 2 and Giving the output
 			preparedStatement2.executeUpdate();
 			System.out.println("Amount is Credited to Account Number 3333.");
+
+			// 2.Programmer manually Committing the Changes.
+			connection.commit();
 		} catch (Exception e) {
+			try {
+
+				// 3.Roll Back the if any Changes Happen.
+				connection.rollback();
+				System.out.println("The Changes are Rolled Back.");
+			} catch (SQLException e1) {
+
+				e1.printStackTrace();
+			}
 			e.printStackTrace();
 		}
 	}
