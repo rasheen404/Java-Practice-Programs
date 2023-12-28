@@ -4595,3 +4595,132 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2023-12-28 10:08:13.792
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE Software being installed: artificial_root 1.0.0.v1703738291617
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-12-28 10:08:13.793
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE Mylyn IDE UI 3.26.1.v20230604-1755 (org.eclipse.mylyn.ide.ui 3.26.1.v20230604-1755)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE Mylyn IDE UI 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.ui 4.1.0.v20231009-0014)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-12-28 10:08:13.793
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE From: artificial_root 1.0.0.v1703738291617
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-12-28 10:08:13.793
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE From: artificial_root 1.0.0.v1703738291617
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.ide_feature.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-12-28 10:08:13.793
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE From: Mylyn Context Connector: Eclipse IDE 4.1.0.v20231009-0014 (org.eclipse.mylyn.ide.feature.feature.group 4.1.0.v20231009-0014)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.ide.ui [4.1.0.v20231009-0014,4.1.0.v20231009-0014]
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2023-12-28 10:08:13.793
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE From: Mylyn Context Connector: Eclipse IDE 3.26.1.v20230604-1755 (org.eclipse.mylyn.ide_feature.feature.group 3.26.1.v20230604-1755)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-12-28 10:08:13.793
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.mylyn.ide.ui [3.26.1.v20230604-1755,3.26.1.v20230604-1755]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2023-12-28 10:08:13.795
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\rasheen\eclipse\jee-2023-06\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2023-12-28 10:37:13.736
+!MESSAGE Failed to create project.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-metadata.xml
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/codehaus/mojo/maven-metadata.xml
+Progress (1): 1.4/21 kBProgress (2): 1.4/21 kB | 1.4/14 kBProgress (2): 1.4/21 kB | 2.8/14 kBProgress (2): 2.8/21 kB | 2.8/14 kBProgress (2): 2.8/21 kB | 4.1/14 kBProgress (2): 4.1/21 kB | 4.1/14 kBProgress (2): 5.5/21 kB | 4.1/14 kBProgress (2): 5.5/21 kB | 5.5/14 kBProgress (2): 6.9/21 kB | 5.5/14 kBProgress (2): 6.9/21 kB | 6.9/14 kBProgress (2): 8.3/21 kB | 6.9/14 kBProgress (2): 8.3/21 kB | 8.3/14 kBProgress (2): 9.7/21 kB | 8.3/14 kBProgress (2): 9.7/21 kB | 9.7/14 kBProgress (2): 11/21 kB | 9.7/14 kB Progress (2): 11/21 kB | 11/14 kB Progress (2): 12/21 kB | 11/14 kBProgress (2): 12/21 kB | 12/14 kBProgress (2): 14/21 kB | 12/14 kBProgress (2): 14/21 kB | 14/14 kBProgress (2): 15/21 kB | 14/14 kBProgress (2): 15/21 kB | 14 kB   Progress (2): 17/21 kB | 14 kBProgress (2): 18/21 kB | 14 kBProgress (2): 19/21 kB | 14 kBProgress (2): 21 kB | 14 kB                              Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/codehaus/mojo/maven-metadata.xml[90m (21 kB at 70 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-metadata.xml[90m (14 kB at 48 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml[90m (980 B at 43 kB/s)[0m
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+
+"===============================================================
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.m2e.core.ui.internal.archetype.ArchetypeGenerator.createArchetypeProjects(ArchetypeGenerator.java:164)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:246)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:51)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:55)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-metadata.xml
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/codehaus/mojo/maven-metadata.xml
+Progress (1): 1.4/21 kBProgress (2): 1.4/21 kB | 1.4/14 kBProgress (2): 1.4/21 kB | 2.8/14 kBProgress (2): 2.8/21 kB | 2.8/14 kBProgress (2): 2.8/21 kB | 4.1/14 kBProgress (2): 4.1/21 kB | 4.1/14 kBProgress (2): 5.5/21 kB | 4.1/14 kBProgress (2): 5.5/21 kB | 5.5/14 kBProgress (2): 6.9/21 kB | 5.5/14 kBProgress (2): 6.9/21 kB | 6.9/14 kBProgress (2): 8.3/21 kB | 6.9/14 kBProgress (2): 8.3/21 kB | 8.3/14 kBProgress (2): 9.7/21 kB | 8.3/14 kBProgress (2): 9.7/21 kB | 9.7/14 kBProgress (2): 11/21 kB | 9.7/14 kB Progress (2): 11/21 kB | 11/14 kB Progress (2): 12/21 kB | 11/14 kBProgress (2): 12/21 kB | 12/14 kBProgress (2): 14/21 kB | 12/14 kBProgress (2): 14/21 kB | 14/14 kBProgress (2): 15/21 kB | 14/14 kBProgress (2): 15/21 kB | 14 kB   Progress (2): 17/21 kB | 14 kBProgress (2): 18/21 kB | 14 kBProgress (2): 19/21 kB | 14 kBProgress (2): 21 kB | 14 kB                              Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/codehaus/mojo/maven-metadata.xml[90m (21 kB at 70 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-metadata.xml[90m (14 kB at 48 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml[90m (980 B at 43 kB/s)[0m
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+
+"===============================================================
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.lambda$4(EclipseMavenLauncher.java:120)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.launchesTerminated(EclipseMavenLauncher.java:107)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:257)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:931)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:644)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1265)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1299)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:498)
+	... 1 more
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-28 10:38:19.871
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-28 10:38:19.872
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-28 10:38:19.872
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-28 10:38:19.873
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-28 10:38:19.881
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-28 10:38:19.884
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
