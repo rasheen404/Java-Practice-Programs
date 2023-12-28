@@ -23,6 +23,11 @@
 			class="unidirection.OnetoOne.HibernateExample4.Hibernate_OnetoOneMapping.Bike1" />
 
 
+		<mapping
+			class="bidirectional.OnetoOne.HibernateExample5.Person2" />
+		<mapping
+			class="bidirectional.OnetoOne.HibernateExample5.Bike2" />
+
 	</session-factory>
 
 

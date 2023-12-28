@@ -8,6 +8,7 @@ public class Bike1 {
 	@Id
 	int Engine_no;
 	String brand;
+	int cost;
 	@Override
 	public String toString() {
 		return "Bike1 [Engine_no=" + Engine_no + ", brand=" + brand + ", cost=" + cost + "]";
@@ -40,5 +41,5 @@ public class Bike1 {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	int cost;
+	
 }
