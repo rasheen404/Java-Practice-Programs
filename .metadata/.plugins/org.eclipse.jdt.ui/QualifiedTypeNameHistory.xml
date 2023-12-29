@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.learn.StudentApp.Student"/>
-    <fullyQualifiedTypeName name="com.learn.Employee.Employee"/>
-    <fullyQualifiedTypeName name="com.learn.RobotApp.Robot"/>
-    <fullyQualifiedTypeName name="com.learn.RobotApp.ChefRobot"/>
-    <fullyQualifiedTypeName name="com.learn.RobotApp.DoctorRobot"/>
-    <fullyQualifiedTypeName name="com.learn.RobotApp.TeacherRobot"/>
-    <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Horse"/>
-    <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Animal"/>
-    <fullyQualifiedTypeName name="com.learn.Multi_level_inheritance.Herbivorous"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.beans.beancontext.BeanContext"/>
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Shapes"/>
     <fullyQualifiedTypeName name="java.lang.Readable"/>
     <fullyQualifiedTypeName name="com.learn.ShapesApp.Square"/>
@@ -53,11 +42,22 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="com.TempararyTo.Permenant.Student"/>
     <fullyQualifiedTypeName name="javax.security.auth.login.Configuration"/>
     <fullyQualifiedTypeName name="java.lang.module.Configuration"/>
+    <fullyQualifiedTypeName name="com.learn.HibernateExample2.HibernateExample2.Student"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNativeQueryJoinReturnType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="com.learn.HibernateExample3.HibernateExample3.Person"/>
+    <fullyQualifiedTypeName name="com.learn.HibernateExample3.HibernateExample3.Bike"/>
+    <fullyQualifiedTypeName name="unidirection.OnetoOne.HibernateExample4.Hibernate_OnetoOneMapping.Bike1"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="bidirectional.OnetoOne.HibernateExample5.Person2"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
 </qualifiedTypeNameHistroy>
