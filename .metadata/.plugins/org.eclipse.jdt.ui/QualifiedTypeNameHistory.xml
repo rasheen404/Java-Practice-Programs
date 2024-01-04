@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="com.learn.DeveloperApp.Developer"/>
-    <fullyQualifiedTypeName name="com.learn.DeveloperApp.PythonDeveloper"/>
-    <fullyQualifiedTypeName name="com.learn.DeveloperApp.JavaDeveloper"/>
-    <fullyQualifiedTypeName name="java.awt.datatransfer.Transferable"/>
-    <fullyQualifiedTypeName name="learn.CustomException.AtmApp.InsufficiantBalanceException"/>
     <fullyQualifiedTypeName name="com.CustomException.DrivingLicenceApp.UnderAgeException"/>
     <fullyQualifiedTypeName name="com.CustomException.DrivingLicenceApp.OverAgeException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -52,12 +46,18 @@
     <fullyQualifiedTypeName name="unidirection.ManytoMany.HibernateExample5.Hibernate_ManytoManyMapping.Technology"/>
     <fullyQualifiedTypeName name="unidirection.ManytoMany.HibernateExample5.Hibernate_ManytoManyMapping.SoftEng"/>
     <fullyQualifiedTypeName name="javax.lang.model.element.NestingKind"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="unidirection.OnetoMany.HibernateExample6.Hibernate_OnetoManyMapping.Students"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="unidirection.OnetoMany.HibernateExample6.Hibernate_OnetoManyMapping.Laptop"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.model.naming.ImplicitNameSource"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="unidirection.OnetoMany.HibernateExample7.Hibernate_1_M_Mapping.Technology"/>
+    <fullyQualifiedTypeName name="unidirection.OnetoMany.HibernateExample7.Hibernate_1_M_Mapping.SoftwareEngineers"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="unidirection.OnetoMany.HibernateExample8.Hibernate_Crud_Operations.Person"/>
 </qualifiedTypeNameHistroy>
