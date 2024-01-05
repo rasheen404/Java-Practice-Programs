@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+	<bean class="com.example1.Spring.Spring_Project1.JavaTeacher"
+		id="JavaTeacher1">
+
+		<property name="teacher_id" value="11"></property>
+		<property name="teacher_name" value="Amit"></property>
+
+
+	</bean>
+
+	<bean class="com.example1.Spring.Spring_Project1.SqlTeacher"
+		id="SqlTeacher1">
+
+
+		<property name="teacher_id" value="12"></property>
+		<property name="teacher_name" value="Ajay"></property>
+
+
+
+	</bean>
+
+	<bean class="com.example1.Spring.Spring_Project1.PythonTeacher"
+		id="PythonTeacher1">
+
+
+		<property name="teacher_id" value="13"></property>
+		<property name="teacher_name" value="Ankit"></property>
+
+
+	</bean>
+
+
+</beans>
