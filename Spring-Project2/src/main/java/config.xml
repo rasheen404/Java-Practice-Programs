@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean class="com.example2.Spring.Spring_Project2.Laptop"
+		id="laptop1">
+
+
+		<property name="srNo" value="11"></property>
+		<property name="brand" value="HP"></property>
+		<property name="cost" value="59999"></property>
+
+
+
+
+
+	</bean>
+
+
+
+
+
+
+
+
+</beans>
