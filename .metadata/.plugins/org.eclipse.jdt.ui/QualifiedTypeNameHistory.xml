@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="com.MultiThreading.example1.PrintNum"/>
-    <fullyQualifiedTypeName name="com.MultiThreading.example1.PrintChar"/>
-    <fullyQualifiedTypeName name="com.MultiThreading.SingleRunMethod.Program"/>
-    <fullyQualifiedTypeName name="com.MuliThreading.Synchronized.KodNestLibraryApp"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="com.Synchronized.example2.Hospital"/>
     <fullyQualifiedTypeName name="com.Synchronized.example2.Tom"/>
@@ -59,5 +54,10 @@
     <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.example1.Spring.Spring_Project1.Student"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.example1.Spring.Spring_Project1.JavaTeacher"/>
+    <fullyQualifiedTypeName name="com.example1.Spring.Spring_Project1.SqlTeacher"/>
+    <fullyQualifiedTypeName name="com.example1.Spring.Spring_Project1.PythonTeacher"/>
 </qualifiedTypeNameHistroy>
