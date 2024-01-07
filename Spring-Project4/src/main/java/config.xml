@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+	<bean class="com.example4.Spring.Spring_Project4.CompanyXYZ"
+		id="company">
+		<property name="e" ref="emp2"></property>
+
+
+
+	</bean>
+	<bean class="com.example4.Spring.Spring_Project4.Employee"
+		id="emp1">
+		<property name="emp_id" value="11"></property>
+		<property name="emp_name" value="SUMIT"></property>
+		<property name="emp_salary" value="55000"></property>
+
+	</bean>
+
+	<bean class="com.example4.Spring.Spring_Project4.Employee"
+		id="emp2">
+		<property name="emp_id" value="12"></property>
+		<property name="emp_name" value="MOHAN"></property>
+		<property name="emp_salary" value="67000"></property>
+
+	</bean>
+
+
+
+
+</beans>
