@@ -4,17 +4,25 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
+
+	<!-- SETTER INJUCTION -->
 	<bean class="com.example2.Spring.Spring_Project2.Laptop"
 		id="laptop1">
-
 
 		<property name="srNo" value="11"></property>
 		<property name="brand" value="HP"></property>
 		<property name="cost" value="59999"></property>
 
+	</bean>
 
 
+	<!-- CONSTRUCTOR INJUCTION -->
+	<bean class="com.example2.Spring.Spring_Project2.Laptop"
+		id="laptop2">
 
+		<constructor-arg value="12"></constructor-arg>
+		<constructor-arg value="ASUS"></constructor-arg>
+		<constructor-arg value="74999.99F"></constructor-arg>
 
 	</bean>
 
