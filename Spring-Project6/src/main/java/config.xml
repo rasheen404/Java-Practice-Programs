@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<context:annotation-config />
+
+
+	<bean class="com.example6.Spring.Spring_Project6.University"
+		id="university">
+
+	</bean>
+
+	<bean class="com.example6.Spring.Spring_Project6.Professor"
+		id="professor1">
+		<property name="pro_id" value="11"></property>
+		<property name="pro_name" value="AMIT"></property>
+		<property name="pro_subject" value="MATHS"></property>
+
+	</bean>
+
+	<bean class="com.example6.Spring.Spring_Project6.Professor"
+		id="professor2">
+		<property name="pro_id" value="12"></property>
+		<property name="pro_name" value="ARUN"></property>
+		<property name="pro_subject" value="PHYSICS"></property>
+
+	</bean>
+
+	<bean class="com.example6.Spring.Spring_Project6.Professor"
+		id="professor3">
+		<property name="pro_id" value="13"></property>
+		<property name="pro_name" value="ARJUN"></property>
+		<property name="pro_subject" value="CHEMISTRY"></property>
+
+	</bean>
+
+
+
+
+
+
+</beans>
