@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.TreeSet"/>
-    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
-    <fullyQualifiedTypeName name="java.security.cert.CollectionCertStoreParameters"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.beans.Statement"/>
-    <fullyQualifiedTypeName name="javax.swing.text.DefaultEditorKit.InsertBreakAction"/>
-    <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="javax.sql.StatementEventListener"/>
     <fullyQualifiedTypeName name="com.mysql.cj.Query"/>
@@ -56,8 +49,15 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="com.example3.Spring.Spring_Project3.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="com.example4.Spring.Spring_Project4.Employee"/>
     <fullyQualifiedTypeName name="com.example4.Spring.Spring_Project4.CompanyXYZ"/>
+    <fullyQualifiedTypeName name="com.example5.Spring.Spring_Project5.Engine"/>
+    <fullyQualifiedTypeName name="com.example5.Spring.Spring_Project5.Car"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.example6.Spring.Spring_Project6.University"/>
+    <fullyQualifiedTypeName name="com.example6.Spring.Spring_Project6.Professor"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
 </qualifiedTypeNameHistroy>
